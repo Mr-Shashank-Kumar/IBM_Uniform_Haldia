@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		glue={"stepdefinition"},
 		monochrome=true,
 		tags={"@happygrouppath,@happypath"},
-		plugin={"pretty"}
+		plugin={"pretty","html:target/cucumber-reports"}
 		)
 
 public class testRunner {
